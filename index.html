@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Encrypt/Decrypt text</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <h1>Encrypt/Decrypt text</h1>
+        <form id="myForm">
+            <input type="text" id="inputText" placeholder="Enter Plain text or Paste the encrypted text" />
+            <input type="text" id="inputPassword" placeholder="Type Passphrase (Optional)" />
+            <br>
+            <button type="button" id="enc" onclick="AesEncrypt()">Encrypt</button>
+            <button type="button" id="dec" onclick="AesDecrypt()">Decrypt</button>
+            <button type="reset" class="reset">Reset</button>
+        </form>
+        <br>
+        <br>
+
+        <p>Encrypted text: </p>
+        <p id="demo1"> </p>
+        <p>Decrypted text: </p>
+        <p id="demo2"></p>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
+        <script src="index.js"></script>
+    </div>
+    <!-- /main -->
+
+</body>
+
+</html>
+
+</html>
