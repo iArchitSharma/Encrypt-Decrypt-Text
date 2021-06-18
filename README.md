@@ -1,5 +1,5 @@
 # Encrypt-Decrypt-Text
-Tool to quickly encrypt/decrypt text with a password - <a href = "https://iarchitsharma.github.io/Encrypt-Decrypt-Text/" target = "_self">Use it online</a>
+Tool to quickly encrypt/decrypt text with a password - <b><a href = "https://iarchitsharma.github.io/Encrypt-Decrypt-Text/" target = "_self">Use it online</a></b>
 
 ## Instructions for using the tool:
 First, enter the text to be encrypted or decrypted into the input field. Then enter the password (Optional) and click on whether you want to encrypt or decrypt the text entered. Finally, you will get your text encrypted or decrypted.
