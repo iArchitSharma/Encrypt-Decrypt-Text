@@ -1,103 +1,116 @@
-                            html {
-                                box-sizing: border-box;
-                            }
-                            
-                            *,
-                            *:before,
-                            *:after {
-                                box-sizing: inherit;
-                            }
-                            
-                            body {
-                                background: #f5f5f5;
-                                color: #333;
-                                font-family: arial, helvetica, sans-serif;
-                                font-size: 32px;
-                            }
-                            
-                            h1 {
-                                font-size: 32px;
-                                text-align: center;
-                            }
-                            
-                            p {
-                                font-size: 20px;
-                                line-height: 1.5;
-                                margin: 10px auto 0;
-                                max-width: 640px;
-                            }
-                            
-                            .main {
-                                background: #fff;
-                                border: 5px solid #ccc;
-                                border-radius: 10px;
-                                margin: 40px auto;
-                                padding: 40px;
-                                width: 80%;
-                                max-width: 700px;
-                            }
-                            
-                            button {
-                                background: #fff;
-                                border: 2px solid #333;
-                                border-radius: 5px;
-                                color: #333;
-                                font-size: 16px;
-                                font-weight: bold;
-                                padding: 1rem;
-                            }
-                            
-                            button:hover {
-                                background: #27AE60;
-                                border: 2px solid #27AE60;
-                                color: #fff;
-                            }
-                            
-                            button.reset {
-                                background: #f03737;
-                                border: 2px solid #f03737;
-                                color: #fff;
-                                float: right;
-                            }
-                            
-                            button.reset:hover {
-                                background: #fff;
-                                border: 2px solid #f03737;
-                                color: #f03737;
-                            }
-                            
-                            input {
-                                border: 2px solid #333;
-                                border-radius: 5px;
-                                color: #333;
-                                font-size: 25px;
-                                margin: 0 0 20px;
-                                padding: .5rem 1rem;
-                                width: 100%;
-                            }
-                            
-                            #demo1 {
-                                border: 2px solid #333;
-                                border-radius: 5px;
-                                background-color: #e9e9e9;
-                                word-wrap: break-word;
-                                font-size: 15px;
-                                color: rgb(0, 0, 0);
-                                margin: 0 0 20px;
-                                padding: .5rem 1rem;
-                                width: 100%;
-                                font-family: arial, helvetica, sans-serif;
-                            }
-                            
-                            #demo2 {
-                                border: 2px solid #333;
-                                border-radius: 5px;
-                                background-color: #e9e9e9;
-                                word-wrap: break-word;
-                                font-size: 15px;
-                                color: rgb(0, 0, 0);
-                                margin: 0 0 20px;
-                                padding: .5rem 1rem;
-                                width: 100%;
-                                font-family: arial, helvetica, sans-serif;
-                            }
+                                html {
+                                    box-sizing: border-box;
+                                }
+                                
+                                *,
+                                *:before,
+                                *:after {
+                                    box-sizing: inherit;
+                                }
+                                
+                                body {
+                                    background: #f5f5f5;
+                                    color: #333;
+                                    font-family: arial, helvetica, sans-serif;
+                                    font-size: 32px;
+                                }
+                                
+                                h1 {
+                                    font-size: 32px;
+                                    text-align: center;
+                                }
+                                
+                                p {
+                                    font-size: 20px;
+                                    line-height: 1.5;
+                                    margin: 10px auto 0;
+                                    max-width: 640px;
+                                    display: inline-block;
+                                }
+                                
+                                .main {
+                                    background: #fff;
+                                    border: 5px solid #ccc;
+                                    border-radius: 10px;
+                                    margin: 40px auto;
+                                    padding: 40px;
+                                    width: 80%;
+                                    max-width: 700px;
+                                }
+                                
+                                button {
+                                    background: #fff;
+                                    border: 2px solid #333;
+                                    border-radius: 5px;
+                                    color: #333;
+                                    font-size: 16px;
+                                    font-weight: bold;
+                                    padding: 1rem;
+                                }
+                                
+                                button:hover {
+                                    background: #27AE60;
+                                    border: 2px solid #27AE60;
+                                    color: #fff;
+                                }
+                                
+                                button.reset {
+                                    background: #f03737;
+                                    border: 2px solid #f03737;
+                                    color: #fff;
+                                    float: right;
+                                }
+                                
+                                button.reset:hover {
+                                    background: #fff;
+                                    border: 2px solid #f03737;
+                                    color: #f03737;
+                                }
+                                
+                                input {
+                                    border: 2px solid #333;
+                                    border-radius: 5px;
+                                    color: #333;
+                                    font-size: 25px;
+                                    margin: 0 0 20px;
+                                    padding: .5rem 1rem;
+                                    width: 100%;
+                                }
+                                
+                                #demo1 {
+                                    border: 2px solid #333;
+                                    border-radius: 5px;
+                                    background-color: #e9e9e9;
+                                    word-wrap: break-word;
+                                    font-size: 15px;
+                                    color: rgb(0, 0, 0);
+                                    margin: 0 0 20px;
+                                    padding: .5rem 1rem;
+                                    width: 100%;
+                                    font-family: arial, helvetica, sans-serif;
+                                }
+                                
+                                #demo2 {
+                                    border: 2px solid #333;
+                                    border-radius: 5px;
+                                    background-color: #e9e9e9;
+                                    word-wrap: break-word;
+                                    font-size: 15px;
+                                    color: rgb(0, 0, 0);
+                                    margin: 0 0 20px;
+                                    padding: .5rem 1rem;
+                                    width: 100%;
+                                    font-family: arial, helvetica, sans-serif;
+                                }
+                                
+                                #Bcopy {
+                                    float: right;
+                                    padding: 2px;
+                                    font-size: 15px;
+                                }
+                                
+                                #Bcopy:hover {
+                                    background: #3d3d3d;
+                                    border: 2px solid #3d3d3d;
+                                    color: #fff;
+                                }
