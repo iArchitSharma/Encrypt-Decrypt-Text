@@ -5,7 +5,7 @@ Tool to quickly encrypt/decrypt text with a password - <b><a href = "https://iar
 First, enter the text to be encrypted or decrypted into the input field. Then enter the password (Optional) and click on whether you want to encrypt or decrypt the text entered. Finally, you will get your text encrypted or decrypted.
 
 ## Demo
-![out](https://user-images.githubusercontent.com/74408634/122517933-cf53fa80-d03a-11eb-8ed0-49bd3b85e705.gif)
+![out]<img src="https://user-images.githubusercontent.com/74408634/122517933-cf53fa80-d03a-11eb-8ed0-49bd3b85e705.gif" width="300px" height="300px">
 
 ## Why use it?
 Using this online tool, you can encrypt any type of text according to the Advanced Encryption Standard (AES). AES algorithm provides a very high level of security.
